@@ -5,19 +5,19 @@
         "ecmaFeatures": {}
     },
     "rules": {
-        "semi": ["warn", "always"],
-        "quotes": ["warn", "double"],
+        "semi": ["error", "always"],
+        "quotes": ["error", "double"],
         "no-dupe-args": ["error"],
         "no-irregular-whitespace": "warn",
         "handle-callback-err": "error",
-        "camelcase": ["warn"],
-        "prefer-const":["warn"],
-        "prefer-arrow-callback": ["warn", { "allowUnboundThis": true }],
-        "object-shorthand": ["warn", "always"],
+        "camelcase": ["error"],
+        "prefer-const":["error"],
+        "prefer-arrow-callback": ["error", { "allowUnboundThis": true }],
+        "object-shorthand": ["error", "always"],
         "no-duplicate-imports": ["error"],
-        "arrow-spacing": ["warn"],
-        "space-before-blocks": ["warn"],
-        "no-whitespace-before-property": ["warn"],
-        "no-trailing-spaces": ["warn"]
+        "arrow-spacing": ["error"],
+        "space-before-blocks": ["error"],
+        "no-whitespace-before-property": ["error"],
+        "no-trailing-spaces": ["error"]
     }
 }
