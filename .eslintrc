@@ -1,0 +1,23 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {}
+    },
+    "rules": {
+        "semi": ["warn", "always"],
+        "quotes": ["warn", "double"],
+        "no-dupe-args": ["error"],
+        "no-irregular-whitespace": "warn",
+        "handle-callback-err": "error",
+        "camelcase": ["warn"],
+        "prefer-const":["warn"],
+        "prefer-arrow-callback": ["warn", { "allowUnboundThis": true }],
+        "object-shorthand": ["warn", "always"],
+        "no-duplicate-imports": ["error"],
+        "arrow-spacing": ["warn"],
+        "space-before-blocks": ["warn"],
+        "no-whitespace-before-property": ["warn"],
+        "no-trailing-spaces": ["warn"]
+    }
+}

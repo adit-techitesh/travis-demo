@@ -1,0 +1,30 @@
+{
+  "name": "travis-node-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jslint": "^0.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0"
+  },
+  "scripts": {
+    "test": "echo \"no test \" && exit 0",
+    "start": "node server.js",
+    "lint": "eslint src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techitesh/travis-node-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techitesh/travis-node-demo/issues"
+  },
+  "homepage": "https://github.com/techitesh/travis-node-demo#readme"
+}
